@@ -25,8 +25,8 @@ const Search = ({ onSearchChange }) => {
   };
 
   const handleOnChange = (searchData) => {
-    setSearch(searchData);
     onSearchChange(searchData);
+    setSearch("");
   };
 
   return (
